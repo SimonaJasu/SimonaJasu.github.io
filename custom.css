@@ -1,0 +1,296 @@
+body {
+    font-family: "Roboto", "Open Sans", sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif; 
+    color: #1a237e; 
+    font-weight: 700; 
+    line-height: 1.2; 
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3.2rem; 
+    font-weight: 900; 
+    color: #4CAF50; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    border-bottom: 3px solid #1a237e; 
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 2.0rem;
+    font-weight: 700; 
+    color: #3f51b5; 
+    letter-spacing: 1px;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600; 
+    color: #9c27b0; 
+    line-height: 1.4;
+    margin-top: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 500; 
+    color: #444444; 
+    letter-spacing: 0.3px;
+    margin-top: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+
+h5, h6 {
+    font-size: 1rem;
+    font-weight: 400; 
+    color: #757575; 
+    text-transform: none; 
+}
+p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.btn-primary {
+    background: #9c27b0 !important;
+    border: 2px solid #9c27b0 !important;
+    color: #ffffff !important;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+    background: #7b1fa2 !important;
+    border-color: #7b1fa2 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:active {
+    background: #6a1b9a !important; 
+    border-color: #6a1b9a !important;
+    transform: translateY(0);
+}
+
+.btn-outline {
+    background: transparent !important;
+    border: 2px solid #3f51b5 !important;
+    color: #3f51b5 !important;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+    background: #3f51b5 !important;
+    color: #ffffff !important;
+}
+
+a:not(.btn) {
+    color: #4CAF50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:not(.btn):hover {
+    color: #388e3c;
+    text-decoration: underline;
+}
+
+#about, #resume, #portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+#resume h3, #about h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.section-title h2 {
+    border: 2px solid #3f51b5;
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0ff;
+    font-size: 2.2rem;
+    font-weight: 700; 
+    color: #1a237e;
+    letter-spacing: 1.5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.experience-card, 
+.education-item,
+.skill-card {
+    border: 1px solid #eeeeee; 
+    border-left: 5px solid #3f51b5; 
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+}
+
+.experience-card:hover,
+.education-item:hover,
+.skill-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-left-color: #4CAF50; 
+}
+
+.portfolio-entry {
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+}
+
+#header {
+    background: #004d40 !important;
+    border-right: 8px solid #ffab00 !important;
+    box-shadow: 2px 0 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+.navmenu a {
+    color: #cfd8dc !important;
+    transition: all 0.3s !important;
+}
+
+.navmenu a:hover, .navmenu .active {
+    color: #ffab00 !important;
+    background: rgba(255, 255, 255, 0.15) !important;
+    padding-left: 20px !important;
+}
+
+.profile-img img {
+    border: 5px solid #ffab00 !important;
+}
+
+#back-to-top, .scroll-top, .back-to-top-btn, .fixed-bottom-right-btn { 
+    background: #00ff1a !important;
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    width: 50px !important;
+    height: 50px !important;
+    line-height: 50px !important;
+    border-radius: 50% !important;
+    right: 40px !important;
+    bottom: 40px !important;
+    transition: all 0.3s !important;
+    z-index: 9999 !important;
+}
+
+#back-to-top:hover, .scroll-top:hover, .back-to-top-btn:hover, .fixed-bottom-right-btn:hover {
+    background: #cc0000 !important;
+    transform: scale(1.1) !important;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+/*papildoma uzduotis*/
+ol {
+    list-style: none;
+    padding-left: 0;
+    counter-reset: mano-skaitiklis;
+}
+
+ol li {
+    counter-increment: mano-skaitiklis;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    position: relative;
+    font-size: 1.1rem;
+}
+
+ol li::before {
+    content: "0" counter(mano-skaitiklis) ".";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: 700;
+    color: #9c27b0;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    padding-left: 25px;
+    position: relative;
+    font-size: 1.05rem;
+}
+
+ul li::before {
+    content: "\25B6";
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+ul ul li::before {
+    content: "\2713";
+    color: #3f51b5;
+    font-size: 1rem;
+}
+
+.service-pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.service-pricing-table thead th {
+    background-color: #1a237e;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.service-pricing-table tbody td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.service-pricing-table tbody tr:hover {
+    background-color: #f0f0ff;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 2px #3f51b5;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.service-pricing-table tbody tr:last-child td {
+    border-bottom: none;
+}
